@@ -1,0 +1,184 @@
+/* Light theme */
+.light {
+  background-color: #f8f8f8;
+}
+
+.light nav button {
+  color: #ebebeb;
+}
+
+.light .theme-toggler {
+  color: #1b1b1b;
+}
+
+.light .home-container {
+  background-color: #ffffff;
+}
+
+.light .intro-text,
+.light .social-title,
+.light .skills-header .tab,
+.light .header h1,
+.light .project h2 {
+  color: #1b1b1b;
+}
+.App.light .navbar {
+  background-color: #525252;
+}
+
+.light .profile-image {
+  width: 405px;
+  height: 408px;
+  border-radius: 50%;
+  background-image: url("../ProfileImg/LightPhoto.jpg");
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-size: 115%;
+}
+
+.light .sub-text,
+.light .passions-subheader,
+.light .header p,
+.light .project p {
+  color: #6c6c6c;
+}
+
+.light .find-more-btn {
+  background-color: #7cadc8bd;
+  border-color: #7099a5;
+}
+
+.light .find-more-btn:hover {
+  background-color: #7cadc8;
+}
+
+.light .social-link {
+  background-color: #f8f8f8;
+  border-color: #a5a5a5;
+}
+
+.light .social-link svg {
+  color: #a5a5a5;
+}
+
+.light .passions-container {
+  background-color: #f5f5f5;
+}
+
+.light .skills-content {
+  background-color: #f8f8f8;
+}
+
+.light .work-container {
+  background-color: #f8f8f8;
+}
+
+.light .button {
+  background-color: #7099a5;
+  border-color: #7cadc8;
+}
+
+.light .button:hover {
+  background-color: #7cadc8;
+  border-color: #7099a5;
+}
+
+.light .footer-container {
+  background-color: #525252;
+}
+.light .passions-header {
+  color: #525252;
+}
+.light .passions-section-title {
+  color: #525252;
+}
+.light .skills-wrapper {
+  background-color: #ffffff;
+}
+
+.light .tab {
+  color: #a3979749;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+.light .tab.active {
+  color: #5a5757;
+  border-bottom: 2px solid #524e4e;
+}
+
+@media screen and (max-width: 750px) {
+  .light .navbar {
+    display: none;
+  }
+
+  .light .profile-image {
+    width: 275px;
+    height: 275px;
+    margin-bottom: 3em;
+  }
+
+  .light .intro-text {
+    font-size: 32px;
+  }
+
+  .light .sub-text {
+    font-size: 14px;
+    margin-bottom: 6em;
+  }
+
+  .light .find-more-btn {
+    width: 292px;
+    height: 63px;
+  }
+
+  .light .social-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+  }
+
+  .light .social-title {
+    display: none;
+  }
+
+  .light .social-link {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 41px;
+    height: 38px;
+  }
+
+  .light .social-links {
+    gap: 0.5rem;
+  }
+
+  .light .top-section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .light .left-container {
+    margin-right: 0;
+  }
+  .light .passions-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .light .passions-container {
+    display: flex;
+    flex-shrink: inherit;
+    align-items: center;
+    justify-content: center;
+  }
+  .light .passions-section-image {
+    margin-top: 1em;
+  }
+  .light .passions-section-title {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .light .passions-section-text {
+    display: flexbox;
+  }
+}
