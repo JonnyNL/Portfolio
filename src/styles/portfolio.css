@@ -424,6 +424,7 @@ nav button.active {
   border-radius: 16px;
   box-shadow: 0 0 10px 2px rgba(59, 55, 55, 0.959);
   animation: glowing 2s infinite alternate;
+  color: #ffffff81;
 }
 
 @media only screen and (max-width: 768px) {
@@ -639,4 +640,22 @@ nav button.active {
   font-family: IBM Plex Mono;
   font-size: 14px;
   margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.fsubmit-button:hover {
+  background-color: #33617b;
+  border-color: #2d556d;
+}
+
+.fsubmit-button:active {
+  background-color: #2d556d;
+  border-color: #244c63;
+}
+
+.fsubmit-button:focus {
+  outline: none;
+  background-color: #33617b;
+  border-color: #2d556d;
 }

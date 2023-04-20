@@ -27,14 +27,27 @@ const Skills = () => {
       <div className="skills-content">
         {activeTab === "skills" && (
           <div>
-            <h2>Skills</h2>
-            {/* Your skills content goes here */}
+            <div>Python</div>
+            <div>HTML</div>
+            <div>Javascript</div>
+            <div>React</div>
+            <div>Figma</div>
+            <div>Canva</div>
+
+            <div>Inclusion</div>
+            <div>Customer Service</div>
+            <div>Time Management</div>
           </div>
         )}
         {activeTab === "traits" && (
           <div>
-            <h2>Traits</h2>
-            {/* Your traits content goes here */}
+            <div>Loyal</div>
+            <div>Honest</div>
+            <div>Honorable</div>
+            <div>Disciplined</div>
+            <div>Ambitious</div>
+            <div>Courageous</div>
+            <div>Shy</div>
           </div>
         )}
       </div>
