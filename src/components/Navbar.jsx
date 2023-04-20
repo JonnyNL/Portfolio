@@ -16,7 +16,7 @@ const Navbar = ({ toggleTheme }) => {
 
   return (
     <div className={`navbar ${isDarkTheme ? "dark" : "light"}`}>
-      <nav>
+      <nav className="navbar__links">
         <button onClick={() => scrollToSection("home")}>Home</button>
         <button onClick={() => scrollToSection("passions")}>Passions</button>
         <button onClick={() => scrollToSection("skills")}>
@@ -33,9 +33,15 @@ const Navbar = ({ toggleTheme }) => {
         </button>
         <span onClick={toggleThemeHandler} className="theme-toggler">
           {isDarkTheme ? (
-            <HiSun style={{ color: "white", fontSize: "2em" }} />
+            <HiSun
+              className="iconbullshit"
+              style={{ color: "white", fontSize: "2em" }}
+            />
           ) : (
-            <HiMoon style={{ color: "black", fontSize: "2em" }} />
+            <HiMoon
+              className="iconbullshit"
+              style={{ color: "black", fontSize: "2em" }}
+            />
           )}
         </span>
       </nav>
