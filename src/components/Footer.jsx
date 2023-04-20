@@ -1,3 +1,7 @@
+// Author: Jonathan Ivany
+
+// The purpose of this component is to render a form in which users can send me messages straight from my portfolio,
+
 import React, { useState } from "react";
 import "../styles/portfolio.css";
 
@@ -5,7 +9,7 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
   const [message, setMessage] = useState("");
-  const formEndpoint = "https://formspree.io/f/xpzekpzv"; // Replace 'your_form_id' with your actual Formspree form ID
+  const formEndpoint = "https://formspree.io/f/xpzekpzv";
 
   const clearInputFields = () => {
     setEmail("");
