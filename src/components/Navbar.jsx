@@ -1,3 +1,6 @@
+// Author: Jonathan Ivany
+// The purpose of this component is on a windows computer navigate instead of manual scrolling and handle light mode / dark mode
+
 import React, { useState } from "react";
 import "../styles/portfolio.css";
 import { HiSun, HiMoon } from "react-icons/hi";

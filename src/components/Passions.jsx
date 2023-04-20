@@ -1,4 +1,5 @@
-// Passions.jsx
+// Auhor: Jonathan Ivany
+// The purpose of this component is to render my hobbies section
 import React from "react";
 import "../styles/portfolio.css";
 import Hobby1 from "../hobbies/MyHeadset.jpg";

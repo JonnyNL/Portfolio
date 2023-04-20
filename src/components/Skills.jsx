@@ -1,3 +1,7 @@
+// Author: Jonathan Ivany
+
+// The purpose of this component is to show case my skills and traits seperately and neatly
+
 import React, { useState } from "react";
 import "../styles/portfolio.css";
 
